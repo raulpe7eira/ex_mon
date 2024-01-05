@@ -1,21 +1,26 @@
 # ExMon
 
-**TODO: Add description**
+This code corresponding to the [Section 3 - Elixir e Phoenix do Zero by Rafael Camarda](https://www.udemy.com/course/elixir-e-phoenix-do-zero) lab.
 
-## Installation
+> The project simulates a turn-based game (like Pokémon).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_mon` to your list of dependencies in `mix.exs`:
+## Compilation, tests and runs
 
-```elixir
-def deps do
-  [
-    {:ex_mon, "~> 0.1.0"}
-  ]
-end
+```bash
+$ cd ex_mon
+$ mix compile
+$ mix test
+$ iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/ex_mon>.
+## How to use?
+
+```elixir
+# creates a player with three movements
+iex> player = ExMon.create_player("Raul", :kick, :cure, :punch)
+# starts a game for the player
+iex> ExMon.start_game(player)
+# makes move for the player
+iex> ExMon.make_move(:kick)
+```
 
