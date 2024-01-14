@@ -8,6 +8,7 @@ This code corresponding to the [Section 3 - Elixir e Phoenix do Zero by Rafael C
 
 ```bash
 $ cd ex_mon
+$ asdf install
 $ mix compile
 $ mix test
 $ iex -S mix
