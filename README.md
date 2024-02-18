@@ -1,6 +1,6 @@
 # ExMon
 
-This code corresponding to the [Section 3 - Elixir e Phoenix do Zero by Rafael Camarda](https://www.udemy.com/course/elixir-e-phoenix-do-zero) lab.
+This code corresponds to the [Section 3 of Elixir e Phoenix do Zero Course](https://www.udemy.com/course/elixir-e-phoenix-do-zero) lab by [Rafael Camarda](https://cursos.rafaelcamarda.com/).
 
 > The project simulates a turn-based game (like Pokémon).
 
